@@ -1,5 +1,7 @@
 import express from "express"
-import { PORT } from "./utils/constants.ts"
+import config from "./config/env.ts"
+
+const { PORT } = config
 
 const app = express()
 
